@@ -1,0 +1,43 @@
+-- las ventas
+
+group: lasventas 
+
+
+vendedor = {
+	nvendedor:string, edad:number
+	'Alberto',30
+	'Crispín',25
+	'Danilo',28
+	'Hernán',32
+}
+
+clientes = {
+	nombre:string, estado:string, categoria:number
+	'Ana'        , 'Hidalgo'    , 1               
+	'Benito'     , 'Morelos'    , 1               
+	'Carlos'     , 'Hidalgo'    , 2               
+	'Carolina'   , 'Nayarit'    , 3               
+	'María'      , 'Hidalgo'    , 2               
+	'Nohemí'     , 'Morelos'    , 3               
+	'Carlos'     , 'Hidalgo'    , 2               
+	'Carolina'   , 'Nayarit'    , 3               
+	'Pablo'      , 'Morelos'    , 1               
+	'Teófilo'    , 'Chiapas'    , 1               
+	'Tempas'     , 'Chiapas'    , 2               
+}
+
+ventas = {
+	ncliente:string, nvendedor:string, monto:number
+	'Ana', 'Alberto', 2000
+	'Benito', 'Crispín', 3000
+	'Ana', 'Danilo', 2000
+	'Carlos', 'Danilo', 1500
+	'Tomas', 'Crispín', 1500
+	'Pablo', 'Crispín', 1300
+	'Nohemí', 'Alberto', 1200
+	'Nohemí', 'Crispín', 1800
+	'Carlos', 'Danilo', 2000
+	'Tomás', 'Danilo', 5000
+	'Teófilo', 'Hernán', 7000
+	'Benito', 'Hernán', 8000
+}
