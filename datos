@@ -1,0 +1,41 @@
+-- Ejemplo de los datos de la clase R, S, T Q
+
+group: datos 
+
+
+R = {
+	A:number, B:number, C:number
+	1, 0, 1
+	1, 0, 0
+	0, 3, 2
+	1, 2, 3
+	0, 2, 0	
+}
+
+S = {
+	 B:number, D:number
+	 0, 3
+	 3, 0
+	 2, 1
+}
+
+
+
+T = {
+	A:number, B:number, C:number
+	1, 1, 0
+	1, 0, 1
+	1, 2, 1
+	2, 0, 0
+	1, 2, 3	
+}
+
+Q = {
+	B:number, D:number, E:number
+	2, 1, 0
+	1, 1, 1
+	2, 1, 3
+	0, 3, 0
+	3, 0, 0	
+}
+
